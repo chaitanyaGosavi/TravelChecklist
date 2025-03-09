@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Fredoka:wght@300..700&family=Lobster&display=swap');
+
+
+.HeaderLogo {
+  font-family: "Lobster", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ChecklistForm {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.CheckListSummary{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2.5px;
+}
