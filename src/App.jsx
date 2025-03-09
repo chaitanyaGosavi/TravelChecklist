@@ -45,9 +45,9 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen flex">
+      <div className="w-screen h-screen md:flex">
           <ChecklistForm addItemBtnHandler = {addItemBtnHandler} />
-        <div className="flex flex-col h-full bg-[#fff3d6] ">
+        <div className="flex flex-col h-[40vh] md:h-full bg-[#fff3d6] ">
         <HeaderLogo />
           <div className="h-full">
             <CheckList checkList = {checkList} handleIsPackedCheckBox = {handleIsPackedCheckBox} handleDeleteItem = {handleDeleteItem}/>
