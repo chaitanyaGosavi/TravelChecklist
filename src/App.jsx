@@ -25,6 +25,9 @@ function App() {
     }));
   }
 
+  const handleClearCheckList = () => {
+    setCheckList([]);
+  }
 
   const addItemBtnHandler = () => {
     const itemDesc = document.getElementById('itemDescIp').value;
@@ -50,7 +53,11 @@ function App() {
         <div className="flex flex-col h-[40vh] md:h-full bg-[#fff3d6] ">
         <HeaderLogo />
           <div className="h-full">
-            <CheckList checkList = {checkList} handleIsPackedCheckBox = {handleIsPackedCheckBox} handleDeleteItem = {handleDeleteItem}/>
+            <CheckList 
+            checkList = {checkList} 
+            handleIsPackedCheckBox = {handleIsPackedCheckBox} 
+            handleDeleteItem = {handleDeleteItem}
+            handleClearCheckList = {handleClearCheckList}/>
             <CheckListSummary countTotalItems = {countTotalItems} countPackedItems = {countPackedItems}/>
           </div>
         </div>
